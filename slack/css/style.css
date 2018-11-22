@@ -15,7 +15,7 @@ Primary style
 
 body {
   font-size: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #4e5359;
   background-color: #f3f3f5;
 }
@@ -40,14 +40,14 @@ body.cd-overlay::after {
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 10px) {
   body::after {
     display: none;
   }
 }
 
 a {
-  color: #a9c056;
+  color: #7CB342;
   text-decoration: none;
 }
 
@@ -58,10 +58,10 @@ Main components
 -------------------------------- */
 header {
   position: relative;
-  height: 180px;
-  line-height: 180px;
+  height: 100px;
+  line-height: 100px;
   text-align: center;
-  background-color: #a9c056;
+  background-color: #7CB342;
 }
 header h1 {
   color: #ffffff;
@@ -72,8 +72,8 @@ header h1 {
 }
 @media only screen and (min-width: 1024px) {
   header {
-    height: 240px;
-    line-height: 240px;
+    height: 150px;
+    line-height: 150px;
   }
   header h1 {
     font-size: 36px;
@@ -87,16 +87,18 @@ header h1 {
   max-width: 1024px;
   margin: 2em auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center
 }
 .cd-faq:after {
   content: "";
   display: table;
   clear: both;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 10px) {
   .cd-faq {
     position: relative;
-    margin: 4em auto;
+    margin: 2em auto;
     box-shadow: none;
   }
 }
@@ -136,7 +138,7 @@ header h1 {
 .cd-faq-categories li:last-child a {
   border-bottom: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 10px) {
   .cd-faq-categories {
     width: 20%;
     float: left;
@@ -239,7 +241,7 @@ header h1 {
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 10px) {
   .cd-faq-items {
     position: static;
     height: auto;
@@ -316,7 +318,7 @@ header h1 {
 .cd-close-panel.move-left {
   right: 2%;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 10px) {
   .cd-close-panel {
     display: none;
   }
@@ -347,7 +349,7 @@ header h1 {
 .no-js .cd-faq-group {
   display: block;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 100px) {
   .cd-faq-group {
     /* all groups visible */
     display: block;
@@ -377,7 +379,7 @@ header h1 {
   margin: 1.6em 0 .4em;
   line-height: 1.2;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 10px) {
   .cd-faq-trigger {
     font-size: 24px;
     font-size: 1.5rem;
@@ -439,7 +441,7 @@ header h1 {
   line-height: 1.4;
   color: #6c7d8e;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 10px) {
   .cd-faq-content {
     display: none;
     padding: 0 24px 30px;
