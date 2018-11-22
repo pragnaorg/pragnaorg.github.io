@@ -83,7 +83,7 @@ header h1 {
 }
 
 .cd-faq {
-  width: 90%;
+  width: 100%;
   max-width: 1024px;
   margin: 2em auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
@@ -325,6 +325,7 @@ header h1 {
 }
 
 .cd-faq-group {
+  width: 100%;
   /* hide group not selected */
   display: none;
 }
